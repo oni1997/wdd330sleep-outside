@@ -26,5 +26,7 @@ export default defineConfig({
         ),
       },
     },
+    // Ensure JSON files are copied to the build output
+    assetsInclude: ['**/*.json'],
   },
 });
